@@ -1,14 +1,41 @@
 {
-  "name": "react-native-cloud-fs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      "github:csae0/react-native-cloud-fs",
+      "/Users/florian/Documents/_git/easily"
+    ]
+  ],
+  "_from": "github:csae0/react-native-cloud-fs",
+  "_id": "react-native-cloud-fs@github:csae0/react-native-cloud-fs#af27a5f34bd9771db879103069bbb8fbb0f342fb",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-cloud-fs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "github:csae0/react-native-cloud-fs",
+    "rawSpec": "github:csae0/react-native-cloud-fs",
+    "saveSpec": "github:csae0/react-native-cloud-fs",
+    "fetchSpec": null,
+    "gitCommittish": null
   },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:csae0/react-native-cloud-fs#af27a5f34bd9771db879103069bbb8fbb0f342fb",
+  "_spec": "github:csae0/react-native-cloud-fs",
+  "_where": "/Users/florian/Documents/_git/easily",
+  "author": "",
+  "description": "A react-native library for reading and writing files to _iCloud Drive_ (iOS) and _Google Drive_ (Android).",
   "keywords": [
     "react-native"
   ],
-  "author": "",
-  "license": ""
+  "license": "",
+  "main": "index.js",
+  "name": "react-native-cloud-fs",
+  "homepage": "https://github.com/csae0/react-native-cloud-fs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
 }
