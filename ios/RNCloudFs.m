@@ -203,8 +203,8 @@ RCT_EXPORT_METHOD(copyToCloud:(NSDictionary *)options
             
             // todo: figure out how to *copy* to icloud drive
             // ...setUbiquitous will move the file instead of copying it, so as a work around lets copy it to a tmp file first
-            NSString *filename = [sourceUri lastPathComponent];
-            NSString *tempFile = [NSTemporaryDirectory() stringByAppendingPathComponent:filename];
+            NSString *tempFilename = [NSString stringWithFormat:@"%@%@", [[NSUUID UUID] UUIDString], [sourceUri lastPathComponent]];
+            NSString *tempFile = [NSTemporaryDirectory() stringByAppendingPathComponent:tempFilename];
             
             NSError *error;
             [fileManager copyItemAtPath:[sourceURL path] toPath:tempFile error:&error];
